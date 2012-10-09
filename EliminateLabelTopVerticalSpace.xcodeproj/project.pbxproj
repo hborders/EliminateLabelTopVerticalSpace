@@ -17,7 +17,7 @@
 		7B572DF4162227DE00B6362C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B572DF3162227DE00B6362C /* Default@2x.png */; };
 		7B572DF6162227DE00B6362C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B572DF5162227DE00B6362C /* Default-568h@2x.png */; };
 		7B572DF9162227DE00B6362C /* HBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B572DF8162227DE00B6362C /* HBViewController.m */; };
-		7B572DFC162227DE00B6362C /* HBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B572DFA162227DE00B6362C /* HBViewController.xib */; };
+		7B572E0316223C5B00B6362C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B572E0216223C5B00B6362C /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +36,7 @@
 		7B572DF5162227DE00B6362C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7B572DF7162227DE00B6362C /* HBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBViewController.h; sourceTree = "<group>"; };
 		7B572DF8162227DE00B6362C /* HBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBViewController.m; sourceTree = "<group>"; };
-		7B572DFB162227DE00B6362C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HBViewController.xib; sourceTree = "<group>"; };
+		7B572E0216223C5B00B6362C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B572E0316223C5B00B6362C /* CoreText.framework in Frameworks */,
 				7B572DE0162227DE00B6362C /* UIKit.framework in Frameworks */,
 				7B572DE2162227DE00B6362C /* Foundation.framework in Frameworks */,
 				7B572DE4162227DE00B6362C /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +74,7 @@
 		7B572DDE162227DE00B6362C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7B572E0216223C5B00B6362C /* CoreText.framework */,
 				7B572DDF162227DE00B6362C /* UIKit.framework */,
 				7B572DE1162227DE00B6362C /* Foundation.framework */,
 				7B572DE3162227DE00B6362C /* CoreGraphics.framework */,
@@ -87,7 +89,6 @@
 				7B572DEF162227DE00B6362C /* HBAppDelegate.m */,
 				7B572DF7162227DE00B6362C /* HBViewController.h */,
 				7B572DF8162227DE00B6362C /* HBViewController.m */,
-				7B572DFA162227DE00B6362C /* HBViewController.xib */,
 				7B572DE6162227DE00B6362C /* Supporting Files */,
 			);
 			path = EliminateLabelTopVerticalSpace;
@@ -163,7 +164,6 @@
 				7B572DF2162227DE00B6362C /* Default.png in Resources */,
 				7B572DF4162227DE00B6362C /* Default@2x.png in Resources */,
 				7B572DF6162227DE00B6362C /* Default-568h@2x.png in Resources */,
-				7B572DFC162227DE00B6362C /* HBViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +189,6 @@
 				7B572DE9162227DE00B6362C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		7B572DFA162227DE00B6362C /* HBViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7B572DFB162227DE00B6362C /* en */,
-			);
-			name = HBViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
